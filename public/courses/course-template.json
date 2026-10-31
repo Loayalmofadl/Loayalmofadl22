@@ -1,0 +1,92 @@
+{
+  "id": "level-XX",
+  "title": "عنوان المستوى",
+  "description": "وصف مختصر للمستوى وما سيتعلمه الطالب",
+  "levelNumber": 1,
+  "order": 1,
+  "language": "ar",
+  "schemaVersion": "1.0",
+  "estimatedMinutes": 120,
+  "units": [
+    {
+      "id": "unit-01",
+      "title": "عنوان الوحدة الأولى",
+      "description": "وصف مختصر للوحدة",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "lesson-01-01",
+          "title": "عنوان الدرس الأول",
+          "objectives": [
+            "الهدف التعليمي الأول",
+            "الهدف التعليمي الثاني"
+          ],
+          "order": 1,
+          "contentBlocks": [
+            {
+              "type": "heading",
+              "content": "عنوان فرعي"
+            },
+            {
+              "type": "paragraph",
+              "content": "فقرة شرح توضح المفهوم الأساسي"
+            },
+            {
+              "type": "list",
+              "items": [
+                "العنصر الأول",
+                "العنصر الثاني",
+                "العنصر الثالث"
+              ]
+            },
+            {
+              "type": "code",
+              "language": "javascript",
+              "content": "// مثال برمجي\nconsole.log('مرحباً بالعالم');"
+            },
+            {
+              "type": "note",
+              "content": "ملاحظة مهمة للطالب"
+            },
+            {
+              "type": "warning",
+              "content": "تنبيه حول خطأ شائع"
+            }
+          ],
+          "examples": [
+            {
+              "type": "code",
+              "language": "javascript",
+              "content": "// مثال إضافي\nconst name = 'أحمد';\nconsole.log(`مرحباً ${name}`);"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "ex-01",
+              "title": "تمرين تطبيقي",
+              "description": "وصف التمرين وما يجب على الطالب إنجازه",
+              "requirement": "المطلوب بالضبط من الطالب",
+              "hint": "تلميح لمساعدة الطالب",
+              "solution": "// الحل النموذجي\nconsole.log('الحل');"
+            }
+          ],
+          "quiz": [
+            {
+              "id": "q-01",
+              "question": "ما هو الناتج من تنفيذ الكود التالي؟",
+              "options": [
+                "الخيار الأول",
+                "الخيار الثاني",
+                "الخيار الثالث",
+                "الخيار الرابع"
+              ],
+              "correctAnswer": 0,
+              "explanation": "تفسير سبب صحة هذه الإجابة",
+              "points": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
